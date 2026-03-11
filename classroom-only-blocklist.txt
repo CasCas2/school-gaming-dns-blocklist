@@ -1,0 +1,46 @@
+# Classroom Only Blocklist
+# Format: hosts
+# Last reviewed: 2026-03-11
+# Purpose: blocks classroom-style mirrors, GitHub Pages mirrors, and unblocked game brands
+
+# Unblocked games brands
+0.0.0.0 unblockedgames66.net
+0.0.0.0 unblockedgames66.org
+0.0.0.0 unblockedgames66.com
+0.0.0.0 unblockedgames76.net
+0.0.0.0 unblockedgames77.net
+0.0.0.0 unblockedgames911.net
+0.0.0.0 unblockedgameswtf.com
+0.0.0.0 unblockedgamesworld.com
+0.0.0.0 unblockedgamespremium.com
+0.0.0.0 unblockedgames24h.com
+0.0.0.0 unblockedgames333.com
+0.0.0.0 unblockedgamespod.com
+0.0.0.0 unblockedgamesx.github.io
+0.0.0.0 unblockedfreegames.github.io
+0.0.0.0 unblockedhub.github.io
+
+# Classroom-style mirrors
+0.0.0.0 classroom6x.org
+0.0.0.0 classroom6x.net
+0.0.0.0 classroom6x.co
+0.0.0.0 classroom6x.gg
+0.0.0.0 classroom6x.lol
+0.0.0.0 classroom10x.com
+0.0.0.0 classroom15x.com
+0.0.0.0 classroom20x.com
+0.0.0.0 classroom30x.com
+0.0.0.0 classroom60x.com
+0.0.0.0 classroom80x.com
+0.0.0.0 classroom100x.com
+0.0.0.0 classroomgames6x.com
+
+# GitHub Pages mirrors commonly used for school bypass
+0.0.0.0 ubg365.github.io
+0.0.0.0 ubg44.github.io
+0.0.0.0 ubg98.github.io
+0.0.0.0 ubg100.github.io
+0.0.0.0 ubg89.github.io
+0.0.0.0 duckmath.github.io
+0.0.0.0 hoodamath-games.github.io
+0.0.0.0 ubghyper.github.io

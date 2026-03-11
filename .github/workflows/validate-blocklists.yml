@@ -1,0 +1,57 @@
+name: Validate Blocklists
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate hosts files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          files=$(find . -maxdepth 1 -type f -name '*.txt' | sort)
+
+          if [ -z "$files" ]; then
+            echo "No blocklist files found"
+            exit 1
+          fi
+
+          for file in $files; do
+            echo "Validating $file"
+
+            if grep -nE '^[[:space:]]+$' "$file"; then
+              echo "Whitespace-only lines are not allowed in $file"
+              exit 1
+            fi
+
+            if grep -nEv '^(#|$|0\.0\.0\.0 [A-Za-z0-9.-]+)$' "$file"; then
+              echo "Invalid line format detected in $file"
+              exit 1
+            fi
+
+            domains=$(grep -E '^0\.0\.0\.0 ' "$file" | awk '{print $2}')
+
+            if [ -z "$domains" ]; then
+              echo "No hosts entries found in $file"
+              exit 1
+            fi
+
+            duplicates=$(printf '%s\n' "$domains" | sort | uniq -d)
+            if [ -n "$duplicates" ]; then
+              echo "Duplicate domains found in $file:"
+              printf '%s\n' "$duplicates"
+              exit 1
+            fi
+          done
+
+          echo "All blocklists passed validation"

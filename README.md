@@ -1,5 +1,8 @@
 # MEGA School Gaming Blocklist
 
+[![Validate Blocklists](https://github.com/CasCas2/school-gaming-dns-blocklist/actions/workflows/validate-blocklists.yml/badge.svg)](https://github.com/CasCas2/school-gaming-dns-blocklist/actions/workflows/validate-blocklists.yml)
+[![Repo](https://img.shields.io/badge/GitHub-CasCas2%2Fschool--gaming--dns--blocklist-black)](https://github.com/CasCas2/school-gaming-dns-blocklist)
+
 A focused DNS blocklist for schools that want to reduce access to browser games, unblocked game mirrors, `.io` games, soundboard distractions, and browser-based cloud gaming services.
 
 The list is intentionally kept in simple `hosts` format so it can be dropped into most DNS filtering systems without conversion.
@@ -44,7 +47,18 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 ## Included file
 
 - [`mega-gaming-blocklist.txt`](mega-gaming-blocklist.txt) - main list in `hosts` format
+- [`school-gaming-lite.txt`](school-gaming-lite.txt) - smaller starter list for the most common school gaming domains
+- [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) - focused list for classroom mirrors, GitHub Pages mirrors, and unblocked game brands
 - [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
+
+## Raw URLs
+
+Use these raw GitHub URLs directly in AdGuard Home, Pi-hole, or similar tools:
+
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/mega-gaming-blocklist.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/school-gaming-lite.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt`
 
 ## Format
 
@@ -58,11 +72,11 @@ Each entry uses standard `hosts` syntax:
 
 ### AdGuard Home
 
-Add the raw file URL from this repository as a custom filter.
+Add one of the raw file URLs from this repository as a custom filter.
 
 ### Pi-hole
 
-Add the list under `Group Management -> Adlists`, then run a gravity update.
+Add the desired raw URL under `Group Management -> Adlists`, then run a gravity update.
 
 ### pfBlockerNG
 
@@ -71,6 +85,13 @@ Use the list as an external DNSBL source in `hosts` format.
 ### Technitium / NextDNS
 
 Import or mirror the list through the provider's custom blocklist feature.
+
+## Recommended profiles
+
+- `school-gaming-lite.txt` for a conservative starter deployment
+- `mega-gaming-blocklist.txt` for the default broad school gaming profile
+- `classroom-only-blocklist.txt` when classroom mirrors and unblocked brands are the main problem
+- `aggressive-school-bypass-blocklist.txt` only when students abuse generic hosting platforms for bypass
 
 ## Scope notes
 
@@ -125,6 +146,8 @@ This blocklist works best together with:
 
 - Maintained in `hosts` format
 - 131 blocked hostnames
+- 37 blocked hostnames in the lite list
+- 36 blocked hostnames in the classroom-only list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 11, 2026
 
