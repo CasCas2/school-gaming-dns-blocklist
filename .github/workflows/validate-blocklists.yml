@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate hosts files
         shell: bash
@@ -34,7 +34,7 @@ jobs:
               exit 1
             fi
 
-            if grep -nEv '^(#|$|0\.0\.0\.0 [A-Za-z0-9.-]+)$' "$file"; then
+            if grep -nEv '^(#.*|$|0\.0\.0\.0 [A-Za-z0-9.-]+)$' "$file"; then
               echo "Invalid line format detected in $file"
               exit 1
             fi
