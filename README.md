@@ -49,6 +49,7 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 - [`mega-gaming-blocklist.txt`](mega-gaming-blocklist.txt) - main list in `hosts` format
 - [`school-gaming-lite.txt`](school-gaming-lite.txt) - smaller starter list for the most common school gaming domains
 - [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) - focused list for classroom mirrors, GitHub Pages mirrors, and unblocked game brands
+- [`cheat-tools-blocklist.txt`](cheat-tools-blocklist.txt) - optional list for cheat engines, auto clickers, macros, and exploit tools
 - [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
 
 ## Raw URLs
@@ -58,6 +59,7 @@ Use these raw GitHub URLs directly in AdGuard Home, Pi-hole, or similar tools:
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/mega-gaming-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/school-gaming-lite.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/cheat-tools-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt`
 
 ## Format
@@ -91,6 +93,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 - `school-gaming-lite.txt` for a conservative starter deployment
 - `mega-gaming-blocklist.txt` for the default broad school gaming profile
 - `classroom-only-blocklist.txt` when classroom mirrors and unblocked brands are the main problem
+- `cheat-tools-blocklist.txt` when you also want to block auto clickers, macro tools, and cheat portals on managed devices
 - `aggressive-school-bypass-blocklist.txt` only when students abuse generic hosting platforms for bypass
 
 ## Scope notes
@@ -142,12 +145,20 @@ This blocklist works best together with:
 - firewall rules for VPN / proxy evasion domains
 - DNS logging and periodic review of misses
 
+If device abuse is also a problem, combine the main gaming list with the cheat/tools profile to reduce access to:
+
+- auto clickers
+- macro tools
+- cheat engines
+- exploit-download portals
+
 ## Current status
 
 - Maintained in `hosts` format
 - 131 blocked hostnames
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
+- 23 blocked hostnames in the cheat/tools list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 11, 2026
 
