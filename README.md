@@ -50,6 +50,7 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 - [`school-gaming-lite.txt`](school-gaming-lite.txt) - smaller starter list for the most common school gaming domains
 - [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) - focused list for classroom mirrors, GitHub Pages mirrors, and unblocked game brands
 - [`cheat-tools-blocklist.txt`](cheat-tools-blocklist.txt) - optional list for cheat engines, auto clickers, macros, and exploit tools
+- [`vpn-software-blocklist.txt`](vpn-software-blocklist.txt) - optional list for blocking common VPN software and download portals
 - [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
 
 ## Raw URLs
@@ -60,6 +61,7 @@ Use these raw GitHub URLs directly in AdGuard Home, Pi-hole, or similar tools:
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/school-gaming-lite.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/cheat-tools-blocklist.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/vpn-software-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt`
 
 ## Format
@@ -94,6 +96,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 - `mega-gaming-blocklist.txt` for the default broad school gaming profile
 - `classroom-only-blocklist.txt` when classroom mirrors and unblocked brands are the main problem
 - `cheat-tools-blocklist.txt` when you also want to block auto clickers, macro tools, and cheat portals on managed devices
+- `vpn-software-blocklist.txt` when you want to reduce access to VPN client downloads and setup portals
 - `aggressive-school-bypass-blocklist.txt` only when students abuse generic hosting platforms for bypass
 
 ## Scope notes
@@ -152,6 +155,12 @@ If device abuse is also a problem, combine the main gaming list with the cheat/t
 - cheat engines
 - exploit-download portals
 
+If VPN evasion is common, also combine it with the VPN software profile. That helps block:
+
+- VPN client download pages
+- manual VPN setup portals
+- popular consumer VPN brands
+
 ## Current status
 
 - Maintained in `hosts` format
@@ -159,6 +168,7 @@ If device abuse is also a problem, combine the main gaming list with the cheat/t
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
 - 23 blocked hostnames in the cheat/tools list
+- 40 blocked hostnames in the VPN software list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 11, 2026
 
