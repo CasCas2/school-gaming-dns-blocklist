@@ -1,10 +1,12 @@
 # MEGA School Gaming Blocklist
 # Format: hosts
-# Compatible with AdGuard Home, Pi-hole, pfBlockerNG
-# Blocks browser games, .io games, unblocked games and gaming portals
+# Last reviewed: 2026-03-11
+# Focus: browser games, .io games, unblocked game portals, mirrors, soundboards, cloud gaming
 
+# Browser game portals
 0.0.0.0 crazygames.com
 0.0.0.0 www.crazygames.com
+0.0.0.0 games.crazygames.com
 0.0.0.0 crazygamesfiles.com
 0.0.0.0 poki.com
 0.0.0.0 www.poki.com
@@ -12,41 +14,54 @@
 0.0.0.0 poki.dk
 0.0.0.0 poki-gdn.com
 0.0.0.0 poki-cdn.com
-
 0.0.0.0 friv.com
 0.0.0.0 www.friv.com
 0.0.0.0 y8.com
 0.0.0.0 www.y8.com
 0.0.0.0 y9gamer.com
 0.0.0.0 coolmathgames.com
+0.0.0.0 www.coolmathgames.com
 0.0.0.0 silvergames.com
+0.0.0.0 www.silvergames.com
 0.0.0.0 armorgames.com
+0.0.0.0 www.armorgames.com
 0.0.0.0 kongregate.com
+0.0.0.0 www.kongregate.com
 0.0.0.0 miniclip.com
+0.0.0.0 www.miniclip.com
 0.0.0.0 agame.com
+0.0.0.0 www.agame.com
 0.0.0.0 gamesgames.com
+0.0.0.0 www.gamesgames.com
 0.0.0.0 addictinggames.com
+0.0.0.0 www.addictinggames.com
 0.0.0.0 kizi.com
+0.0.0.0 www.kizi.com
 0.0.0.0 primarygames.com
+0.0.0.0 www.primarygames.com
 0.0.0.0 gogy.com
 0.0.0.0 1001games.com
-
 0.0.0.0 twoplayergames.org
+0.0.0.0 www.twoplayergames.org
 0.0.0.0 gamaverse.com
+0.0.0.0 www.gamaverse.com
 0.0.0.0 fog.com
 0.0.0.0 minijuegos.com
+0.0.0.0 www.minijuegos.com
 0.0.0.0 playhop.com
 0.0.0.0 gameflare.com
+0.0.0.0 www.gameflare.com
 0.0.0.0 gamepix.com
+0.0.0.0 www.gamepix.com
 0.0.0.0 arcadespot.com
+0.0.0.0 www.arcadespot.com
 0.0.0.0 browsergameshub.com
 0.0.0.0 onlinegames.io
 0.0.0.0 bestgames.com
 0.0.0.0 freegames66.com
 0.0.0.0 play-games.com
-0.0.0.0 itch.io
 
-# IO games
+# .io games and similar quick-play domains
 0.0.0.0 bloxd.io
 0.0.0.0 paper-io.com
 0.0.0.0 hole-io.com
@@ -65,18 +80,19 @@
 0.0.0.0 gartic.io
 0.0.0.0 deeeep.io
 0.0.0.0 smashkarts.io
+0.0.0.0 1v1.lol
 
-# slope / geometry dash clones
+# Popular single-game portals and clones
 0.0.0.0 slopeonline.online
 0.0.0.0 slopegame.io
 0.0.0.0 slope3.com
-0.0.0.0 geometrydashlitepc.io
-0.0.0.0 truckgamesparking.com
 0.0.0.0 run3game.com
 0.0.0.0 run3.io
 0.0.0.0 subwaysurfersgame.io
+0.0.0.0 geometrydashlitepc.io
+0.0.0.0 retrobowl.me
 
-# unblocked games
+# Unblocked games brands
 0.0.0.0 unblockedgames66.net
 0.0.0.0 unblockedgames66.org
 0.0.0.0 unblockedgames66.com
@@ -89,16 +105,16 @@
 0.0.0.0 unblockedgames24h.com
 0.0.0.0 unblockedgames333.com
 0.0.0.0 unblockedgamespod.com
+0.0.0.0 unblockedgamesx.github.io
+0.0.0.0 unblockedfreegames.github.io
+0.0.0.0 unblockedhub.github.io
 
-# github mirrors
-0.0.0.0 ubg365.github.io
-0.0.0.0 ubg44.github.io
-0.0.0.0 ubg98.github.io
-0.0.0.0 ubg100.github.io
-0.0.0.0 ubg89.github.io
-
-# classroom mirrors
+# Classroom-style mirrors
+0.0.0.0 classroom6x.org
+0.0.0.0 classroom6x.net
+0.0.0.0 classroom6x.co
 0.0.0.0 classroom6x.gg
+0.0.0.0 classroom6x.lol
 0.0.0.0 classroom10x.com
 0.0.0.0 classroom15x.com
 0.0.0.0 classroom20x.com
@@ -106,15 +122,32 @@
 0.0.0.0 classroom60x.com
 0.0.0.0 classroom80x.com
 0.0.0.0 classroom100x.com
+0.0.0.0 classroomgames6x.com
 
-# cloud gaming
+# GitHub Pages mirrors commonly used for school bypass
+0.0.0.0 ubg365.github.io
+0.0.0.0 ubg44.github.io
+0.0.0.0 ubg98.github.io
+0.0.0.0 ubg100.github.io
+0.0.0.0 ubg89.github.io
+0.0.0.0 duckmath.github.io
+0.0.0.0 hoodamath-games.github.io
+0.0.0.0 ubghyper.github.io
+
+# Cloud gaming
 0.0.0.0 now.gg
 0.0.0.0 cloudgames.gg
+0.0.0.0 boosteroid.com
+0.0.0.0 www.boosteroid.com
+0.0.0.0 play.geforcenow.com
 
-# soundboards
+# Soundboards and quick distractions
 0.0.0.0 myinstants.com
+0.0.0.0 www.myinstants.com
 0.0.0.0 soundboardguy.com
+0.0.0.0 www.soundboardguy.com
 0.0.0.0 101soundboards.com
+0.0.0.0 www.101soundboards.com
 
-# flight sim
+# Misc browser-based distractions
 0.0.0.0 geo-fs.com
