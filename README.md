@@ -177,7 +177,7 @@ If students install alternate browsers to bypass policy, combine it with the bro
 - 131 blocked hostnames
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
-- 23 blocked hostnames in the cheat/tools list
+- 43 blocked hostnames in the cheat/tools list
 - 40 blocked hostnames in the VPN software list
 - 33 blocked hostnames in the browser-download list
 - 10 additional aggressive-profile hostnames

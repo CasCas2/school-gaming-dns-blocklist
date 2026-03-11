@@ -10,6 +10,8 @@
 0.0.0.0 www.gs-auto-clicker.com
 0.0.0.0 autoclicker.io
 0.0.0.0 autoclicker.org
+0.0.0.0 rewasd.com
+0.0.0.0 www.rewasd.com
 
 # Macro and scripting tools
 0.0.0.0 autohotkey.com
@@ -19,17 +21,35 @@
 0.0.0.0 puloversmacrocreator.com
 0.0.0.0 www.puloversmacrocreator.com
 
-# Game cheating and exploit portals
+# Roblox executors and exploit portals
 0.0.0.0 wearedevs.net
 0.0.0.0 www.wearedevs.net
 0.0.0.0 krnl.place
 0.0.0.0 xsynapse.com
 0.0.0.0 www.xsynapse.com
+0.0.0.0 solara.to
+0.0.0.0 www.solara.to
+0.0.0.0 lunexmods.cc
+0.0.0.0 www.lunexmods.cc
+0.0.0.0 xeno.gg
+0.0.0.0 www.xeno.gg
+0.0.0.0 fluxteam.net
+0.0.0.0 www.fluxteam.net
+0.0.0.0 trigon.to
+0.0.0.0 www.trigon.to
 
-# Save editors and modding tools commonly used by students
+# Trainers, cheat engines, and modding tools commonly used by students
 0.0.0.0 cheatengine.org
 0.0.0.0 www.cheatengine.org
 0.0.0.0 wemod.com
 0.0.0.0 www.wemod.com
 0.0.0.0 plitch.com
 0.0.0.0 www.plitch.com
+0.0.0.0 cheathappens.com
+0.0.0.0 www.cheathappens.com
+0.0.0.0 megadev.net
+0.0.0.0 www.megadev.net
+0.0.0.0 alltrainerspc.com
+0.0.0.0 www.alltrainerspc.com
+0.0.0.0 fearlessrevolution.com
+0.0.0.0 www.fearlessrevolution.com
