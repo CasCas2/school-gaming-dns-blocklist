@@ -12,6 +12,18 @@
 0.0.0.0 www.expressvpn.com
 0.0.0.0 protonvpn.com
 0.0.0.0 www.protonvpn.com
+0.0.0.0 ipvanish.com
+0.0.0.0 www.ipvanish.com
+0.0.0.0 hide.me
+0.0.0.0 www.hide.me
+0.0.0.0 purevpn.com
+0.0.0.0 www.purevpn.com
+0.0.0.0 astrill.com
+0.0.0.0 www.astrill.com
+0.0.0.0 vyprvpn.com
+0.0.0.0 www.vyprvpn.com
+0.0.0.0 pia.com
+0.0.0.0 www.pia.com
 0.0.0.0 privateinternetaccess.com
 0.0.0.0 www.privateinternetaccess.com
 0.0.0.0 cyberghostvpn.com
@@ -34,12 +46,26 @@
 0.0.0.0 www.betternet.co
 0.0.0.0 hola.org
 0.0.0.0 www.hola.org
+0.0.0.0 browsec.com
+0.0.0.0 www.browsec.com
+0.0.0.0 zenmate.com
+0.0.0.0 www.zenmate.com
+0.0.0.0 setupvpn.com
+0.0.0.0 www.setupvpn.com
+0.0.0.0 safeshellvpn.com
+0.0.0.0 www.safeshellvpn.com
+0.0.0.0 zoogvpn.com
+0.0.0.0 www.zoogvpn.com
 0.0.0.0 urban-vpn.com
 0.0.0.0 www.urban-vpn.com
 0.0.0.0 psiphon.ca
 0.0.0.0 www.psiphon.ca
 0.0.0.0 psiphon3.com
 0.0.0.0 www.psiphon3.com
+0.0.0.0 lantern.io
+0.0.0.0 www.lantern.io
+0.0.0.0 ultrasurf.us
+0.0.0.0 www.ultrasurf.us
 
 # VPN protocols and client downloads commonly abused for manual setup
 0.0.0.0 openvpn.net
