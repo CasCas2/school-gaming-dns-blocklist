@@ -1,0 +1,16 @@
+# Aggressive School Bypass Blocklist
+# Format: hosts
+# Last reviewed: 2026-03-11
+# Warning: high false-positive risk
+# Purpose: blocks common static hosting platforms frequently used for unblocked game mirrors
+
+0.0.0.0 pages.dev
+0.0.0.0 www.pages.dev
+0.0.0.0 vercel.app
+0.0.0.0 www.vercel.app
+0.0.0.0 netlify.app
+0.0.0.0 www.netlify.app
+0.0.0.0 github.io
+0.0.0.0 www.github.io
+0.0.0.0 glitch.me
+0.0.0.0 www.glitch.me

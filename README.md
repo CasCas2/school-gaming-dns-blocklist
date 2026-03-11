@@ -44,6 +44,7 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 ## Included file
 
 - [`mega-gaming-blocklist.txt`](mega-gaming-blocklist.txt) - main list in `hosts` format
+- [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
 
 ## Format
 
@@ -77,6 +78,22 @@ Import or mirror the list through the provider's custom blocklist feature.
 - The list prefers direct game portals and mirror domains over giant shared platforms.
 - A few sites may overlap with legitimate educational use. Review locally before broad deployment.
 
+## Optional aggressive profile
+
+If students frequently bypass filtering through static-hosting platforms, use the separate aggressive list:
+
+- [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt)
+
+It blocks broad hosting platforms commonly used for mirrors, including:
+
+- `pages.dev`
+- `vercel.app`
+- `netlify.app`
+- `github.io`
+- `glitch.me`
+
+This is effective, but it can also break legitimate student projects, developer documentation, and class content hosted on those platforms.
+
 ## Maintenance approach
 
 The list is organized by category with comments so it stays easy to review and extend.
@@ -108,6 +125,7 @@ This blocklist works best together with:
 
 - Maintained in `hosts` format
 - 131 blocked hostnames
+- 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 11, 2026
 
 ## Contributions
