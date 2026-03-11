@@ -1,0 +1,1 @@
+# school-gaming-dns-blocklist
