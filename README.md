@@ -51,6 +51,7 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 - [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) - focused list for classroom mirrors, GitHub Pages mirrors, and unblocked game brands
 - [`cheat-tools-blocklist.txt`](cheat-tools-blocklist.txt) - optional list for cheat engines, auto clickers, macros, and exploit tools
 - [`vpn-software-blocklist.txt`](vpn-software-blocklist.txt) - optional list for blocking common VPN software and download portals
+- [`browser-download-blocklist.txt`](browser-download-blocklist.txt) - optional list for blocking alternative browser downloads while leaving Edge and Chrome available
 - [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
 
 ## Raw URLs
@@ -62,6 +63,7 @@ Use these raw GitHub URLs directly in AdGuard Home, Pi-hole, or similar tools:
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/cheat-tools-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/vpn-software-blocklist.txt`
+- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/browser-download-blocklist.txt`
 - `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt`
 
 ## Format
@@ -97,6 +99,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 - `classroom-only-blocklist.txt` when classroom mirrors and unblocked brands are the main problem
 - `cheat-tools-blocklist.txt` when you also want to block auto clickers, macro tools, and cheat portals on managed devices
 - `vpn-software-blocklist.txt` when you want to reduce access to VPN client downloads and setup portals
+- `browser-download-blocklist.txt` when you want to allow Edge and Chrome but reduce downloads of other browsers
 - `aggressive-school-bypass-blocklist.txt` only when students abuse generic hosting platforms for bypass
 
 ## Scope notes
@@ -161,6 +164,13 @@ If VPN evasion is common, also combine it with the VPN software profile. That he
 - manual VPN setup portals
 - popular consumer VPN brands
 
+If students install alternate browsers to bypass policy, combine it with the browser download profile. That helps block:
+
+- Firefox and Firefox forks
+- Opera and Brave
+- privacy-focused browsers such as Tor Browser
+- smaller Chromium-based alternatives
+
 ## Current status
 
 - Maintained in `hosts` format
@@ -169,6 +179,7 @@ If VPN evasion is common, also combine it with the VPN software profile. That he
 - 36 blocked hostnames in the classroom-only list
 - 23 blocked hostnames in the cheat/tools list
 - 40 blocked hostnames in the VPN software list
+- 33 blocked hostnames in the browser-download list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 11, 2026
 

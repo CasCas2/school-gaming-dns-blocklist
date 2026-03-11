@@ -1,0 +1,57 @@
+# Browser Download Blocklist
+# Format: hosts
+# Last reviewed: 2026-03-11
+# Purpose: blocks common browser product and download domains for browsers other than Microsoft Edge and Google Chrome
+
+# Mozilla Firefox
+0.0.0.0 firefox.com
+0.0.0.0 www.firefox.com
+0.0.0.0 mozilla.org
+0.0.0.0 www.mozilla.org
+0.0.0.0 download.mozilla.org
+
+# Opera
+0.0.0.0 opera.com
+0.0.0.0 www.opera.com
+0.0.0.0 download.opera.com
+
+# Brave
+0.0.0.0 brave.com
+0.0.0.0 www.brave.com
+0.0.0.0 brave-browser.download
+
+# Vivaldi
+0.0.0.0 vivaldi.com
+0.0.0.0 www.vivaldi.com
+0.0.0.0 downloads.vivaldi.com
+
+# Tor Browser
+0.0.0.0 torproject.org
+0.0.0.0 www.torproject.org
+0.0.0.0 dist.torproject.org
+
+# LibreWolf
+0.0.0.0 librewolf.net
+0.0.0.0 www.librewolf.net
+
+# Waterfox
+0.0.0.0 waterfox.net
+0.0.0.0 www.waterfox.net
+
+# Pale Moon
+0.0.0.0 palemoon.org
+0.0.0.0 www.palemoon.org
+
+# Floorp
+0.0.0.0 floorp.app
+0.0.0.0 www.floorp.app
+
+# Chromium variants and privacy browsers
+0.0.0.0 chromium.org
+0.0.0.0 www.chromium.org
+0.0.0.0 iridiumbrowser.de
+0.0.0.0 www.iridiumbrowser.de
+0.0.0.0 midori-browser.org
+0.0.0.0 www.midori-browser.org
+0.0.0.0 zen-browser.app
+0.0.0.0 www.zen-browser.app
