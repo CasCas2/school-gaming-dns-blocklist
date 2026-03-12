@@ -1,8 +1,11 @@
 # Aggressive School Bypass Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-11
+# Last reviewed: 2026-03-12
 # Warning: high false-positive risk
 # Purpose: blocks common static hosting platforms frequently used for unblocked game mirrors
+# Note: hosts format blocks exact domains only. 0.0.0.0 github.io does NOT block user.github.io
+#       — each subdomain must be listed separately. Use classroom-only-blocklist.txt for
+#       targeted GitHub Pages mirrors instead of this broad entry.
 
 0.0.0.0 pages.dev
 0.0.0.0 www.pages.dev
@@ -10,6 +13,7 @@
 0.0.0.0 www.vercel.app
 0.0.0.0 netlify.app
 0.0.0.0 www.netlify.app
+# WARNING: blocks ALL GitHub Pages sites including legitimate student projects and documentation
 0.0.0.0 github.io
 0.0.0.0 www.github.io
 0.0.0.0 glitch.me

@@ -12,6 +12,8 @@ This repository accepts focused additions that improve school-oriented DNS block
 
 ## PR expectations
 
+Use the pull request template provided in `.github/pull_request_template.md` — it covers all required fields.
+
 Include:
 
 - the domain you are adding or removing

@@ -22,6 +22,8 @@ COUNT_MAP = {
 
 
 def count_hosts(path: Path) -> int:
+    if not path.is_file():
+        raise SystemExit(f"Blocklist file not found: {path}")
     return sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line.startswith("0.0.0.0 "))
 
 

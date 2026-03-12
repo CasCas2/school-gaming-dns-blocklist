@@ -1,6 +1,6 @@
 # School Gaming Lite Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-11
+# Last reviewed: 2026-03-12
 # Purpose: smaller starter list for common school gaming domains
 
 # Major browser game portals

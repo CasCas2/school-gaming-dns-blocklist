@@ -1,6 +1,8 @@
 # VPN Software Blocklist
 # Format: hosts
 # Last reviewed: 2026-03-12
+# Note: one.one.one.one (Cloudflare DNS resolver) was removed — it is not a VPN product.
+#       Cloudflare WARP is blocked via cloudflareclient.com and warp.cloudflare.com below.
 # Purpose: blocks common VPN product and download domains used to install VPN software on school devices
 
 # Commercial VPN services
@@ -41,8 +43,12 @@
 0.0.0.0 hidemyass.com
 0.0.0.0 www.hidemyass.com
 
+# Cloudflare WARP
+0.0.0.0 cloudflareclient.com
+0.0.0.0 www.cloudflareclient.com
+0.0.0.0 warp.cloudflare.com
+
 # Free and browser-focused VPNs
-0.0.0.0 one.one.one.one
 0.0.0.0 betternet.co
 0.0.0.0 www.betternet.co
 0.0.0.0 hola.org

@@ -12,6 +12,7 @@
 0.0.0.0 www.poki.com
 0.0.0.0 poki.io
 0.0.0.0 poki.dk
+# Note: poki.dk is the Danish locale TLD; add poki.nl, poki.de etc. if needed for other regions
 0.0.0.0 poki-gdn.com
 0.0.0.0 poki-cdn.com
 0.0.0.0 friv.com
@@ -40,15 +41,19 @@
 0.0.0.0 primarygames.com
 0.0.0.0 www.primarygames.com
 0.0.0.0 gogy.com
+0.0.0.0 www.gogy.com
 0.0.0.0 1001games.com
+0.0.0.0 www.1001games.com
 0.0.0.0 twoplayergames.org
 0.0.0.0 www.twoplayergames.org
 0.0.0.0 gamaverse.com
 0.0.0.0 www.gamaverse.com
 0.0.0.0 fog.com
+0.0.0.0 www.fog.com
 0.0.0.0 minijuegos.com
 0.0.0.0 www.minijuegos.com
 0.0.0.0 playhop.com
+0.0.0.0 www.playhop.com
 0.0.0.0 gameflare.com
 0.0.0.0 www.gameflare.com
 0.0.0.0 gamepix.com
@@ -62,8 +67,11 @@
 0.0.0.0 browsergameshub.com
 0.0.0.0 onlinegames.io
 0.0.0.0 bestgames.com
+0.0.0.0 www.bestgames.com
 0.0.0.0 freegames66.com
+0.0.0.0 www.freegames66.com
 0.0.0.0 play-games.com
+0.0.0.0 www.play-games.com
 0.0.0.0 playtoria.com
 0.0.0.0 www.playtoria.com
 
@@ -162,4 +170,6 @@
 0.0.0.0 www.101soundboards.com
 
 # Misc browser-based distractions
+# geo-fs.com: browser-based flight simulator used as a classroom distraction
 0.0.0.0 geo-fs.com
+0.0.0.0 www.geo-fs.com

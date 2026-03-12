@@ -43,6 +43,9 @@
 0.0.0.0 www.fluxteam.net
 0.0.0.0 trigon.to
 0.0.0.0 www.trigon.to
+
+# Gaming overlay and cheat tools
+# wave.gg: general gaming overlay/cheat tool, not Roblox-specific
 0.0.0.0 wave.gg
 0.0.0.0 www.wave.gg
 

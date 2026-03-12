@@ -116,7 +116,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 
 ## Known limitations
 
-- `hosts` format blocks exact domains, not wildcard subdomains
+- `hosts` format blocks exact domains, not wildcard subdomains — `0.0.0.0 github.io` does **not** block `user.github.io`; each subdomain must be listed separately
 - new mirrors appear constantly, so no static list is complete
 - some educational content may share domains with entertainment content
 - DNS blocking alone does not stop all app installs, DoH bypasses, or already installed software
@@ -192,15 +192,14 @@ If students install non-browser software from gaming-related vendors, combine it
 ## Current status
 
 - Maintained in `hosts` format
-- 143 blocked hostnames
+- 151 blocked hostnames
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
 - 55 blocked hostnames in the cheat/tools list
-- 67 blocked hostnames in the VPN software list
+- 69 blocked hostnames in the VPN software list
 - 34 blocked hostnames in the browser-download list
 - 26 blocked hostnames in the general software download list
 - 10 additional aggressive-profile hostnames
-- Reviewed and expanded on March 12, 2026
 
 ## Contributions
 

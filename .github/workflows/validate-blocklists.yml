@@ -24,14 +24,14 @@ jobs:
         run: |
           set -euo pipefail
 
-          files=$(find . -maxdepth 1 -type f -name '*.txt' | sort)
+          mapfile -t files < <(find . -maxdepth 1 -type f -name '*.txt' | sort)
 
-          if [ -z "$files" ]; then
+          if [ "${#files[@]}" -eq 0 ]; then
             echo "No blocklist files found"
             exit 1
           fi
 
-          for file in $files; do
+          for file in "${files[@]}"; do
             echo "Validating $file"
 
             if grep -nE '^[[:space:]]+$' "$file"; then
@@ -39,7 +39,7 @@ jobs:
               exit 1
             fi
 
-            if grep -nEv '^(#.*|$|0\.0\.0\.0 [A-Za-z0-9.-]+)$' "$file"; then
+            if grep -nEv '^(#.*|$|0\.0\.0\.0 ([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,})$' "$file"; then
               echo "Invalid line format detected in $file"
               exit 1
             fi

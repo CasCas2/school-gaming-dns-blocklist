@@ -45,6 +45,9 @@
 0.0.0.0 www.floorp.app
 
 # Chromium variants and privacy browsers
+# Note: chromium.org is primarily a developer/documentation site; students are unlikely to
+# download Chromium from here (requires building from source). Low practical impact, included
+# for completeness. Remove if false-positive risk is a concern.
 0.0.0.0 chromium.org
 0.0.0.0 www.chromium.org
 0.0.0.0 iridiumbrowser.de
