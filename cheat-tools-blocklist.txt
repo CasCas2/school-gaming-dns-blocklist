@@ -1,6 +1,6 @@
 # Cheat and Tools Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-11
+# Last reviewed: 2026-03-12
 # Purpose: blocks cheating tools, automation tools, and related bypass utilities often used on school devices
 
 # Auto clickers and automation tools
@@ -10,6 +10,12 @@
 0.0.0.0 www.gs-auto-clicker.com
 0.0.0.0 autoclicker.io
 0.0.0.0 autoclicker.org
+0.0.0.0 autoclicker.com
+0.0.0.0 www.autoclicker.com
+0.0.0.0 autoclick.app
+0.0.0.0 www.autoclick.app
+0.0.0.0 gcautoclicker.com
+0.0.0.0 www.gcautoclicker.com
 0.0.0.0 rewasd.com
 0.0.0.0 www.rewasd.com
 
@@ -37,6 +43,8 @@
 0.0.0.0 www.fluxteam.net
 0.0.0.0 trigon.to
 0.0.0.0 www.trigon.to
+0.0.0.0 wave.gg
+0.0.0.0 www.wave.gg
 
 # Trainers, cheat engines, and modding tools commonly used by students
 0.0.0.0 cheatengine.org
@@ -53,3 +61,7 @@
 0.0.0.0 www.alltrainerspc.com
 0.0.0.0 fearlessrevolution.com
 0.0.0.0 www.fearlessrevolution.com
+0.0.0.0 trainer.land
+0.0.0.0 www.trainer.land
+0.0.0.0 vgtrainers.com
+0.0.0.0 www.vgtrainers.com
