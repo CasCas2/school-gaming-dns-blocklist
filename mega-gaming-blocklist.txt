@@ -1,6 +1,6 @@
 # MEGA School Gaming Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-11
+# Last reviewed: 2026-03-12
 # Focus: browser games, .io games, unblocked game portals, mirrors, soundboards, cloud gaming
 
 # Browser game portals
