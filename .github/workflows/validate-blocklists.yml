@@ -14,6 +14,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
       - name: Validate hosts files
         shell: bash
         run: |
@@ -55,3 +60,6 @@ jobs:
           done
 
           echo "All blocklists passed validation"
+
+      - name: Check README counts
+        run: python scripts/update_readme_counts.py --check
