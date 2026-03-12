@@ -2,6 +2,11 @@
 
 All notable repository changes should be summarized here.
 
+## Unreleased
+
+- Removed `github.io` and `www.github.io` from `aggressive-school-bypass-blocklist.txt` — GitHub is used for legitimate school work; use targeted entries in `classroom-only-blocklist.txt` instead.
+- Updated README aggressive profile section to reflect the removal.
+
 ## 2026-03-12
 
 - Added a `LICENSE` file using `CC0-1.0`.

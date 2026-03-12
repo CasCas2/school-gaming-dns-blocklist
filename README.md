@@ -116,7 +116,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 
 ## Known limitations
 
-- `hosts` format blocks exact domains, not wildcard subdomains — `0.0.0.0 github.io` does **not** block `user.github.io`; each subdomain must be listed separately
+- `hosts` format blocks exact domains, not wildcard subdomains — for example, `0.0.0.0 example.io` does **not** block `user.example.io`; each subdomain must be listed separately
 - new mirrors appear constantly, so no static list is complete
 - some educational content may share domains with entertainment content
 - DNS blocking alone does not stop all app installs, DoH bypasses, or already installed software
@@ -132,8 +132,9 @@ It blocks broad hosting platforms commonly used for mirrors, including:
 - `pages.dev`
 - `vercel.app`
 - `netlify.app`
-- `github.io`
 - `glitch.me`
+
+Note: `github.io` has been removed from this list because GitHub is used for legitimate school work. Use the targeted GitHub Pages mirror entries in [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) instead.
 
 This is effective, but it can also break legitimate student projects, developer documentation, and class content hosted on those platforms.
 
@@ -199,7 +200,7 @@ If students install non-browser software from gaming-related vendors, combine it
 - 69 blocked hostnames in the VPN software list
 - 34 blocked hostnames in the browser-download list
 - 26 blocked hostnames in the general software download list
-- 10 additional aggressive-profile hostnames
+- 8 additional aggressive-profile hostnames
 
 ## Contributions
 
