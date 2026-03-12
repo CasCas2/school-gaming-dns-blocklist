@@ -52,7 +52,7 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 - [`cheat-tools-blocklist.txt`](cheat-tools-blocklist.txt) - optional list for cheat engines, auto clickers, macros, and exploit tools
 - [`vpn-software-blocklist.txt`](vpn-software-blocklist.txt) - optional list for blocking common VPN software and download portals
 - [`browser-download-blocklist.txt`](browser-download-blocklist.txt) - optional list for blocking alternative browser downloads while leaving Edge and Chrome available
-- [`general-software-download-blocklist.txt`](general-software-download-blocklist.txt) - optional list for blocking selected consumer software download domains such as Roblox
+- [`general-software-download-blocklist.txt`](general-software-download-blocklist.txt) - optional list for blocking selected consumer software download domains such as Roblox and common game launchers
 - [`aggressive-school-bypass-blocklist.txt`](aggressive-school-bypass-blocklist.txt) - optional high-impact list for blocking common mirror-hosting platforms
 
 ## Raw URLs
@@ -102,7 +102,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 - `cheat-tools-blocklist.txt` when you also want to block auto clickers, macro tools, and cheat portals on managed devices
 - `vpn-software-blocklist.txt` when you want to reduce access to VPN client downloads and setup portals
 - `browser-download-blocklist.txt` when you want to allow Edge and Chrome but reduce downloads of other browsers
-- `general-software-download-blocklist.txt` when you want a small optional profile for consumer software downloads such as Roblox
+- `general-software-download-blocklist.txt` when you want a small optional profile for consumer software downloads such as Roblox and common game launchers
 - `aggressive-school-bypass-blocklist.txt` only when students abuse generic hosting platforms for bypass
 
 ## Scope notes
@@ -177,7 +177,7 @@ If students install alternate browsers to bypass policy, combine it with the bro
 If students install non-browser software from gaming-related vendors, combine it with the general software download profile. That helps block:
 
 - Roblox download hosts
-- the main Roblox website used to trigger installer downloads
+- major PC game launcher download portals such as Steam, Epic Games, Battle.net, EA, Ubisoft Connect, GOG, and Riot
 
 ## Current status
 
@@ -188,7 +188,7 @@ If students install non-browser software from gaming-related vendors, combine it
 - 43 blocked hostnames in the cheat/tools list
 - 66 blocked hostnames in the VPN software list
 - 33 blocked hostnames in the browser-download list
-- 4 blocked hostnames in the general software download list
+- 22 blocked hostnames in the general software download list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 12, 2026
 

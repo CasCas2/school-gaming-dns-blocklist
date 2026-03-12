@@ -8,3 +8,35 @@
 0.0.0.0 www.roblox.com
 0.0.0.0 setup.roblox.com
 0.0.0.0 setup.rbxcdn.com
+
+# Steam
+0.0.0.0 steampowered.com
+0.0.0.0 www.steampowered.com
+0.0.0.0 store.steampowered.com
+
+# Epic Games Launcher
+0.0.0.0 epicgames.com
+0.0.0.0 www.epicgames.com
+0.0.0.0 store.epicgames.com
+
+# Battle.net
+0.0.0.0 battle.net
+0.0.0.0 www.battle.net
+0.0.0.0 download.battle.net
+
+# EA app
+0.0.0.0 ea.com
+0.0.0.0 www.ea.com
+
+# Ubisoft Connect
+0.0.0.0 ubisoft.com
+0.0.0.0 www.ubisoft.com
+0.0.0.0 ubisoftconnect.com
+
+# GOG GALAXY
+0.0.0.0 gog.com
+0.0.0.0 www.gog.com
+
+# Riot Client
+0.0.0.0 riotgames.com
+0.0.0.0 www.riotgames.com
