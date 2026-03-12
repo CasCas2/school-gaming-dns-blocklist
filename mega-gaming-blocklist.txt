@@ -55,6 +55,10 @@
 0.0.0.0 www.gamepix.com
 0.0.0.0 arcadespot.com
 0.0.0.0 www.arcadespot.com
+0.0.0.0 lagged.com
+0.0.0.0 www.lagged.com
+0.0.0.0 newgrounds.com
+0.0.0.0 www.newgrounds.com
 0.0.0.0 browsergameshub.com
 0.0.0.0 onlinegames.io
 0.0.0.0 bestgames.com
@@ -69,10 +73,16 @@
 0.0.0.0 hole-io.com
 0.0.0.0 slither.io
 0.0.0.0 agar.io
+0.0.0.0 bonk.io
 0.0.0.0 diep.io
 0.0.0.0 ev.io
 0.0.0.0 krunker.io
+0.0.0.0 narrow.one
+0.0.0.0 sploop.io
+0.0.0.0 territorial.io
+0.0.0.0 venge.io
 0.0.0.0 zombs.io
+0.0.0.0 zombsroyale.io
 0.0.0.0 moomoo.io
 0.0.0.0 surviv.io
 0.0.0.0 shellshock.io

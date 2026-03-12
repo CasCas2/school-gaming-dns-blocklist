@@ -44,7 +44,7 @@ This repository is built for:
 
 That tradeoff is intentional. The list aims to stay practical and avoid blocking large general-purpose services unless they are overwhelmingly used as direct gaming destinations.
 
-## Included file
+## Included files
 
 - [`mega-gaming-blocklist.txt`](mega-gaming-blocklist.txt) - main list in `hosts` format
 - [`school-gaming-lite.txt`](school-gaming-lite.txt) - smaller starter list for the most common school gaming domains
@@ -75,6 +75,8 @@ Each entry uses standard `hosts` syntax:
 ```txt
 0.0.0.0 example.com
 ```
+
+The `hosts` format blocks exact hostnames only. It does not automatically block every subdomain unless those hosts are listed explicitly.
 
 ## Quick setup
 
@@ -111,6 +113,13 @@ Import or mirror the list through the provider's custom blocklist feature.
 - The list prefers direct game portals and mirror domains over giant shared platforms.
 - A few sites may overlap with legitimate educational use. Review locally before broad deployment.
 - Some domains intentionally appear in more than one profile so each list can still be deployed on its own.
+
+## Known limitations
+
+- `hosts` format blocks exact domains, not wildcard subdomains
+- new mirrors appear constantly, so no static list is complete
+- some educational content may share domains with entertainment content
+- DNS blocking alone does not stop all app installs, DoH bypasses, or already installed software
 
 ## Optional aggressive profile
 
@@ -183,12 +192,12 @@ If students install non-browser software from gaming-related vendors, combine it
 ## Current status
 
 - Maintained in `hosts` format
-- 133 blocked hostnames
+- 143 blocked hostnames
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
 - 55 blocked hostnames in the cheat/tools list
 - 67 blocked hostnames in the VPN software list
-- 36 blocked hostnames in the browser-download list
+- 34 blocked hostnames in the browser-download list
 - 26 blocked hostnames in the general software download list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 12, 2026

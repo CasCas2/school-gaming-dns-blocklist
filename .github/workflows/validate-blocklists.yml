@@ -61,5 +61,19 @@ jobs:
 
           echo "All blocklists passed validation"
 
+      - name: Check cross-file duplicates
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          grep -h '^0\.0\.0\.0 ' ./*.txt | awk '{print $2}' | sort | uniq -d > /tmp/cross-dupes.txt
+
+          if [ -s /tmp/cross-dupes.txt ]; then
+            echo "::warning::Cross-file duplicate domains detected. Some overlap is intentional:"
+            cat /tmp/cross-dupes.txt
+          else
+            echo "No cross-file duplicate domains detected"
+          fi
+
       - name: Check README counts
         run: python scripts/update_readme_counts.py --check

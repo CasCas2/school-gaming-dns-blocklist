@@ -6,8 +6,6 @@
 # Mozilla Firefox
 0.0.0.0 firefox.com
 0.0.0.0 www.firefox.com
-0.0.0.0 mozilla.org
-0.0.0.0 www.mozilla.org
 0.0.0.0 download.mozilla.org
 
 # Opera
