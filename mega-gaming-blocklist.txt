@@ -60,6 +60,8 @@
 0.0.0.0 bestgames.com
 0.0.0.0 freegames66.com
 0.0.0.0 play-games.com
+0.0.0.0 playtoria.com
+0.0.0.0 www.playtoria.com
 
 # .io games and similar quick-play domains
 0.0.0.0 bloxd.io
