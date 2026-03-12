@@ -177,7 +177,7 @@ If students install alternate browsers to bypass policy, combine it with the bro
 If students install non-browser software from gaming-related vendors, combine it with the general software download profile. That helps block:
 
 - Roblox download hosts
-- major PC game launcher download portals such as Steam, Epic Games, Battle.net, EA, Ubisoft Connect, GOG, and Riot
+- major PC game launcher download portals such as Steam, Epic Games, Battle.net, EA, Ubisoft Connect, GOG, and Riot, including key Steam content hosts
 
 ## Current status
 
@@ -188,7 +188,7 @@ If students install non-browser software from gaming-related vendors, combine it
 - 43 blocked hostnames in the cheat/tools list
 - 66 blocked hostnames in the VPN software list
 - 33 blocked hostnames in the browser-download list
-- 22 blocked hostnames in the general software download list
+- 26 blocked hostnames in the general software download list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 12, 2026
 

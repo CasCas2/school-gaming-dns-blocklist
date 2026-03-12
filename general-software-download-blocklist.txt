@@ -13,6 +13,9 @@
 0.0.0.0 steampowered.com
 0.0.0.0 www.steampowered.com
 0.0.0.0 store.steampowered.com
+0.0.0.0 steamcontent.com
+0.0.0.0 steamstatic.com
+0.0.0.0 steamserver.net
 
 # Epic Games Launcher
 0.0.0.0 epicgames.com
@@ -32,6 +35,7 @@
 0.0.0.0 ubisoft.com
 0.0.0.0 www.ubisoft.com
 0.0.0.0 ubisoftconnect.com
+0.0.0.0 www.ubisoftconnect.com
 
 # GOG GALAXY
 0.0.0.0 gog.com
