@@ -1,6 +1,6 @@
 # Browser Download Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-11
+# Last reviewed: 2026-03-12
 # Purpose: blocks common browser product and download domains for browsers other than Microsoft Edge and Google Chrome
 
 # Mozilla Firefox
@@ -55,3 +55,8 @@
 0.0.0.0 www.midori-browser.org
 0.0.0.0 zen-browser.app
 0.0.0.0 www.zen-browser.app
+
+# Arc
+0.0.0.0 arc.net
+0.0.0.0 www.arc.net
+0.0.0.0 releases.arc.net

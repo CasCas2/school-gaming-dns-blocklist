@@ -59,14 +59,14 @@ That tradeoff is intentional. The list aims to stay practical and avoid blocking
 
 Use these raw GitHub URLs directly in AdGuard Home, Pi-hole, or similar tools:
 
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/mega-gaming-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/school-gaming-lite.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/cheat-tools-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/vpn-software-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/browser-download-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/general-software-download-blocklist.txt`
-- `https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt`
+- [`mega-gaming-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/mega-gaming-blocklist.txt)
+- [`school-gaming-lite.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/school-gaming-lite.txt)
+- [`classroom-only-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/classroom-only-blocklist.txt)
+- [`cheat-tools-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/cheat-tools-blocklist.txt)
+- [`vpn-software-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/vpn-software-blocklist.txt)
+- [`browser-download-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/browser-download-blocklist.txt)
+- [`general-software-download-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/general-software-download-blocklist.txt)
+- [`aggressive-school-bypass-blocklist.txt`](https://raw.githubusercontent.com/CasCas2/school-gaming-dns-blocklist/main/aggressive-school-bypass-blocklist.txt)
 
 ## Format
 
@@ -110,6 +110,7 @@ Import or mirror the list through the provider's custom blocklist feature.
 - Some domains in this category change often. Mirrors appear and disappear regularly.
 - The list prefers direct game portals and mirror domains over giant shared platforms.
 - A few sites may overlap with legitimate educational use. Review locally before broad deployment.
+- Some domains intentionally appear in more than one profile so each list can still be deployed on its own.
 
 ## Optional aggressive profile
 
@@ -186,8 +187,8 @@ If students install non-browser software from gaming-related vendors, combine it
 - 37 blocked hostnames in the lite list
 - 36 blocked hostnames in the classroom-only list
 - 55 blocked hostnames in the cheat/tools list
-- 66 blocked hostnames in the VPN software list
-- 33 blocked hostnames in the browser-download list
+- 67 blocked hostnames in the VPN software list
+- 36 blocked hostnames in the browser-download list
 - 26 blocked hostnames in the general software download list
 - 10 additional aggressive-profile hostnames
 - Reviewed and expanded on March 12, 2026
