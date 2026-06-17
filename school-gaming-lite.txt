@@ -1,6 +1,6 @@
 # School Gaming Lite Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-06-17
 # Purpose: smaller starter list for common school gaming domains
 
 # Major browser game portals
@@ -19,6 +19,8 @@
 0.0.0.0 addictinggames.com
 0.0.0.0 gamepix.com
 0.0.0.0 gameflare.com
+0.0.0.0 kevin.games
+0.0.0.0 kbhgames.com
 
 # Common .io games
 0.0.0.0 bloxd.io
@@ -31,6 +33,7 @@
 0.0.0.0 skribbl.io
 0.0.0.0 smashkarts.io
 0.0.0.0 1v1.lol
+0.0.0.0 deadshot.io
 
 # High-volume school bypass domains
 0.0.0.0 unblockedgames66.net
@@ -41,6 +44,9 @@
 0.0.0.0 classroom30x.com
 0.0.0.0 ubg365.github.io
 0.0.0.0 ubg44.github.io
+0.0.0.0 unblockedgames66ez.com
+0.0.0.0 3kh0.github.io
+0.0.0.0 selenite.cc
 
 # Frequent distractions
 0.0.0.0 myinstants.com
