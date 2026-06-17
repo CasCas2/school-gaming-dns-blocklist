@@ -1,6 +1,6 @@
 # Classroom Only Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-06-17
 # Purpose: blocks classroom-style mirrors, GitHub Pages mirrors, and unblocked game brands
 
 # Unblocked games brands
@@ -16,6 +16,7 @@
 0.0.0.0 unblockedgames24h.com
 0.0.0.0 unblockedgames333.com
 0.0.0.0 unblockedgamespod.com
+0.0.0.0 unblockedgames66ez.com
 0.0.0.0 unblockedgamesx.github.io
 0.0.0.0 unblockedfreegames.github.io
 0.0.0.0 unblockedhub.github.io
@@ -44,3 +45,9 @@
 0.0.0.0 duckmath.github.io
 0.0.0.0 hoodamath-games.github.io
 0.0.0.0 ubghyper.github.io
+0.0.0.0 3kh0.github.io
+0.0.0.0 3kh0games.gitlab.io
+
+# Browser game proxy hubs (unblocked-games proxies)
+0.0.0.0 selenite.cc
+0.0.0.0 interstellar.lol
