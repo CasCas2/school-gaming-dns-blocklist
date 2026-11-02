@@ -132,7 +132,6 @@ It blocks broad hosting platforms commonly used for mirrors, including:
 - `pages.dev`
 - `vercel.app`
 - `netlify.app`
-- `glitch.me`
 
 Note: `github.io` has been removed from this list because GitHub is used for legitimate school work. Use the targeted GitHub Pages mirror entries in [`classroom-only-blocklist.txt`](classroom-only-blocklist.txt) instead.
 
@@ -193,14 +192,14 @@ If students install non-browser software from gaming-related vendors, combine it
 ## Current status
 
 - Maintained in `hosts` format
-- 163 blocked hostnames
-- 43 blocked hostnames in the lite list
-- 41 blocked hostnames in the classroom-only list
-- 55 blocked hostnames in the cheat/tools list
+- 156 blocked hostnames
+- 42 blocked hostnames in the lite list
+- 36 blocked hostnames in the classroom-only list
+- 42 blocked hostnames in the cheat/tools list
 - 69 blocked hostnames in the VPN software list
-- 34 blocked hostnames in the browser-download list
+- 33 blocked hostnames in the browser-download list
 - 26 blocked hostnames in the general software download list
-- 8 additional aggressive-profile hostnames
+- 6 additional aggressive-profile hostnames
 
 ## Contributions
 

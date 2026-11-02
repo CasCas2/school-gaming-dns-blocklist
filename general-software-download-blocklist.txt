@@ -1,6 +1,6 @@
 # General Software Download Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-11-02
 # Purpose: blocks selected consumer software download domains that schools may want to restrict on managed devices
 
 # Roblox

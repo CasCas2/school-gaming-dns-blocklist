@@ -1,6 +1,6 @@
 # Aggressive School Bypass Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-11-02
 # Warning: high false-positive risk
 # Purpose: blocks common static hosting platforms frequently used for unblocked game mirrors
 # Note: github.io has been removed from this list — GitHub is used for legitimate school work.
@@ -12,5 +12,3 @@
 0.0.0.0 www.vercel.app
 0.0.0.0 netlify.app
 0.0.0.0 www.netlify.app
-0.0.0.0 glitch.me
-0.0.0.0 www.glitch.me

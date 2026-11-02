@@ -2,6 +2,13 @@
 
 All notable repository changes should be summarized here.
 
+## 2026-11-02
+
+- Content review; bumped `Last reviewed` date in all blocklists.
+- Removed domains that no longer resolve (NXDOMAIN on Cloudflare and Google DNS): `classroom6x.net`, `classroom100x.com`, `classroomgames6x.com`, `unblockedgames333.com`, `unblockedgames66ez.com`, `crazygamesfiles.com`, `www.freegames66.com`, `brave-browser.download`, `gs-auto-clicker.com`, `www.autoclick.app`, `puloversmacrocreator.com`, `lunexmods.cc`, `fluxteam.net`, `trigon.to`, and `trainer.land` (including `www` variants).
+- Removed `glitch.me` from `aggressive-school-bypass-blocklist.txt` and the README — Glitch shut down project hosting in July 2025.
+- Updated CI to `actions/checkout@v7` and `actions/setup-python@v7` (Node 20 deprecation warning).
+
 ## 2026-06-17
 
 - Quarterly content review; bumped `Last reviewed` date in the mega, lite, and classroom-only lists.

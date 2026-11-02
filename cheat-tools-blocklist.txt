@@ -1,19 +1,16 @@
 # Cheat and Tools Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-11-02
 # Purpose: blocks cheating tools, automation tools, and related bypass utilities often used on school devices
 
 # Auto clickers and automation tools
 0.0.0.0 opautoclicker.com
 0.0.0.0 www.opautoclicker.com
-0.0.0.0 gs-auto-clicker.com
-0.0.0.0 www.gs-auto-clicker.com
 0.0.0.0 autoclicker.io
 0.0.0.0 autoclicker.org
 0.0.0.0 autoclicker.com
 0.0.0.0 www.autoclicker.com
 0.0.0.0 autoclick.app
-0.0.0.0 www.autoclick.app
 0.0.0.0 gcautoclicker.com
 0.0.0.0 www.gcautoclicker.com
 0.0.0.0 rewasd.com
@@ -24,8 +21,6 @@
 0.0.0.0 www.autohotkey.com
 0.0.0.0 tinytask.net
 0.0.0.0 www.tinytask.net
-0.0.0.0 puloversmacrocreator.com
-0.0.0.0 www.puloversmacrocreator.com
 
 # Roblox executors and exploit portals
 0.0.0.0 wearedevs.net
@@ -35,14 +30,8 @@
 0.0.0.0 www.xsynapse.com
 0.0.0.0 solara.to
 0.0.0.0 www.solara.to
-0.0.0.0 lunexmods.cc
-0.0.0.0 www.lunexmods.cc
 0.0.0.0 xeno.gg
 0.0.0.0 www.xeno.gg
-0.0.0.0 fluxteam.net
-0.0.0.0 www.fluxteam.net
-0.0.0.0 trigon.to
-0.0.0.0 www.trigon.to
 
 # Gaming overlay and cheat tools
 # wave.gg: general gaming overlay/cheat tool, not Roblox-specific
@@ -64,7 +53,5 @@
 0.0.0.0 www.alltrainerspc.com
 0.0.0.0 fearlessrevolution.com
 0.0.0.0 www.fearlessrevolution.com
-0.0.0.0 trainer.land
-0.0.0.0 www.trainer.land
 0.0.0.0 vgtrainers.com
 0.0.0.0 www.vgtrainers.com

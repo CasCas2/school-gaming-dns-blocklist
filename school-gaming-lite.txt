@@ -1,6 +1,6 @@
 # School Gaming Lite Blocklist
 # Format: hosts
-# Last reviewed: 2026-06-17
+# Last reviewed: 2026-11-02
 # Purpose: smaller starter list for common school gaming domains
 
 # Major browser game portals
@@ -44,7 +44,6 @@
 0.0.0.0 classroom30x.com
 0.0.0.0 ubg365.github.io
 0.0.0.0 ubg44.github.io
-0.0.0.0 unblockedgames66ez.com
 0.0.0.0 3kh0.github.io
 0.0.0.0 selenite.cc
 

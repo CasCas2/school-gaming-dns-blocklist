@@ -1,6 +1,6 @@
 # VPN Software Blocklist
 # Format: hosts
-# Last reviewed: 2026-03-12
+# Last reviewed: 2026-11-02
 # Note: one.one.one.one (Cloudflare DNS resolver) was removed — it is not a VPN product.
 #       Cloudflare WARP is blocked via cloudflareclient.com and warp.cloudflare.com below.
 # Purpose: blocks common VPN product and download domains used to install VPN software on school devices
