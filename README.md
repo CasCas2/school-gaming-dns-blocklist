@@ -192,9 +192,9 @@ If students install non-browser software from gaming-related vendors, combine it
 ## Current status
 
 - Maintained in `hosts` format
-- 156 blocked hostnames
-- 42 blocked hostnames in the lite list
-- 36 blocked hostnames in the classroom-only list
+- 183 blocked hostnames
+- 47 blocked hostnames in the lite list
+- 60 blocked hostnames in the classroom-only list
 - 42 blocked hostnames in the cheat/tools list
 - 69 blocked hostnames in the VPN software list
 - 33 blocked hostnames in the browser-download list

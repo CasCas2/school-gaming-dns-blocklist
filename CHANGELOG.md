@@ -8,6 +8,9 @@ All notable repository changes should be summarized here.
 - Removed domains that no longer resolve (NXDOMAIN on Cloudflare and Google DNS): `classroom6x.net`, `classroom100x.com`, `classroomgames6x.com`, `unblockedgames333.com`, `unblockedgames66ez.com`, `crazygamesfiles.com`, `www.freegames66.com`, `brave-browser.download`, `gs-auto-clicker.com`, `www.autoclick.app`, `puloversmacrocreator.com`, `lunexmods.cc`, `fluxteam.net`, `trigon.to`, and `trainer.land` (including `www` variants).
 - Removed `glitch.me` from `aggressive-school-bypass-blocklist.txt` and the README — Glitch shut down project hosting in July 2025.
 - Updated CI to `actions/checkout@v7` and `actions/setup-python@v7` (Node 20 deprecation warning).
+- Added currently active (verified by DNS + HTTP) unblocked-games brands to the mega, classroom-only, and lite lists: `gn-math.dev`, `duckmath.org`, `blooket1.com`, `7x.games`, `weblfg.com` (UBG100's current home), `nowgg.me`, and `geometryspot.com`.
+- Added active static-hosting mirrors: `classroom6x.github.io`, `git-hub-games.github.io`, `sz-games.github.io`, `unblockedgame67.github.io`, `unblocked-games-2026.github.io`, `github-games.gitlab.io`, `unblockedgamespod.gitlab.io`, `ubg100.bitbucket.io`, `ubg100.vercel.app`, and `ubg.vercel.app`.
+- Expanded the proxy-hub section with `gointerstellar.app` (Interstellar's main domain), `selenite.skysthelimit.dev`, and `petezahgames.com`.
 
 ## 2026-06-17
 

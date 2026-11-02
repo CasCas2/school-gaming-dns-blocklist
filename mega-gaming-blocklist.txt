@@ -78,6 +78,7 @@
 0.0.0.0 freegames.io
 0.0.0.0 webgamer.io
 0.0.0.0 iogames.space
+0.0.0.0 nowgg.me
 
 # .io games and similar quick-play domains
 0.0.0.0 bloxd.io
@@ -132,6 +133,16 @@
 0.0.0.0 unblockedgamesx.github.io
 0.0.0.0 unblockedfreegames.github.io
 0.0.0.0 unblockedhub.github.io
+0.0.0.0 blooket1.com
+0.0.0.0 www.blooket1.com
+0.0.0.0 duckmath.org
+0.0.0.0 www.duckmath.org
+0.0.0.0 gn-math.dev
+0.0.0.0 www.gn-math.dev
+0.0.0.0 7x.games
+0.0.0.0 www.7x.games
+0.0.0.0 weblfg.com
+0.0.0.0 www.weblfg.com
 
 # Classroom-style mirrors
 0.0.0.0 classroom6x.org
@@ -156,10 +167,24 @@
 0.0.0.0 ubghyper.github.io
 0.0.0.0 3kh0.github.io
 0.0.0.0 3kh0games.gitlab.io
+0.0.0.0 classroom6x.github.io
+0.0.0.0 git-hub-games.github.io
+0.0.0.0 sz-games.github.io
+0.0.0.0 unblockedgame67.github.io
+0.0.0.0 unblocked-games-2026.github.io
+0.0.0.0 github-games.gitlab.io
+0.0.0.0 unblockedgamespod.gitlab.io
+0.0.0.0 ubg100.bitbucket.io
+0.0.0.0 ubg100.vercel.app
+0.0.0.0 ubg.vercel.app
 
 # Browser game proxy hubs (unblocked-games proxies)
 0.0.0.0 selenite.cc
 0.0.0.0 interstellar.lol
+0.0.0.0 gointerstellar.app
+0.0.0.0 selenite.skysthelimit.dev
+0.0.0.0 petezahgames.com
+0.0.0.0 www.petezahgames.com
 
 # Cloud gaming
 0.0.0.0 now.gg
@@ -178,5 +203,8 @@
 
 # Misc browser-based distractions
 # geo-fs.com: browser-based flight simulator used as a classroom distraction
+# geometryspot.com: "math articles" front page that hosts a large unblocked-games library
 0.0.0.0 geo-fs.com
 0.0.0.0 www.geo-fs.com
+0.0.0.0 geometryspot.com
+0.0.0.0 www.geometryspot.com

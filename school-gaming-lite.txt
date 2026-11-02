@@ -46,6 +46,11 @@
 0.0.0.0 ubg44.github.io
 0.0.0.0 3kh0.github.io
 0.0.0.0 selenite.cc
+0.0.0.0 gn-math.dev
+0.0.0.0 duckmath.org
+0.0.0.0 blooket1.com
+0.0.0.0 petezahgames.com
+0.0.0.0 gointerstellar.app
 
 # Frequent distractions
 0.0.0.0 myinstants.com
